@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	}
+
+	
+.canteen_Title{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	left: 50%;	
+	transform: translate(-50%,-50%);
+	text-align: center;
+	} 
+	.canteen_Title h1{
+		font-size: 38px;
+	}
+	
+	
+.items_title{
+	
+	color: #fff;
+	
+	text-align: center;
+	} 
+	.items_title h1{
+		font-size: 38px;
+		color: #fff;
+	}
+	
+	
+	.canteen_form{
+		width: 90%;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		
+		} 
+	.canteen_display{
+		width: 90%;
+		color: #fff;
+		/* position: absolute; */
+		/* top: 50%; */
+		/* left: 50%; */
+		/* transform: translate(-50%,-50%); */
+		text-align: center;
+		
+		} 
+
+		.canteen_form h1{
+			font-size: 18px;
+		}
+		.panel
+		{
+			padding: 5%;
+			display: flex;
+			justify-content:center;
+		}
+		.row
+		{
+			/* margin-top: 5%; */
+			display: flex;
+			justify-content:center;
+			
+		}
+		.image
+		{
+			margin-top: 5%;
+			display: flex;
+			
+		}
+
+		.msg{
+
+			margin-top:20px;
+			background-color: rgb(173, 15, 128) ;
+			
+		}
+		
+		.field
+		{
+			margin: 1%;
+			padding: 1%;
+			display: flex;
+
+			/* text-align: start; */
+		
+		}
+		.field label{
+			font-size: 25px;
+		color: rgb(179, 159, 226);
+		border: #fff;
+		margin: 3px;
+		}
+		.field span{
+			font-size: 25px;
+		color: rgb(179, 159, 226);
+		background-color: aliceblue;
+		}
+		.field input{
+			height: 30px;
+			width: 220px;
+			background-color: rgb(224, 214, 248) ;
+			
+			
+		
+		}
+	
+
+	.header{
+		min-height: 100vh;
+		width: 100%;
+		background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)), url("canteen.jpg");
+		background-position: center;
+		background-size: cover;
+		position: relative;
+	}
+	
+	nav
+{
+	display: flex;
+	padding:2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+	 
+}
+nav img {
+	width: 150px;
+}
+
+	.nav-links {
+		flex: 1;
+		text-align: right;	
+	}
+
+	.nav-links ul li
+{
+	list-style: none; 
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	
+}
+.nav-links ul li a{
+	color: #fff;
+	 text-decoration:none;
+	font-size: 20px;
+}
+
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto; 
+	transition: 0.4s;
+	 
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+
+select{
+			
+			min-width: 140px;
+			min-height: 32px;
+			justify-content:center;
+	}
+
